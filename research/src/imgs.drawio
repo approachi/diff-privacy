@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
   <diagram name="Страница — 1" id="elxUeTd6T_qAqXD_6Lr1">
-    <mxGraphModel dx="2692" dy="1404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2034" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -208,6 +208,53 @@
         </mxCell>
         <mxCell id="I2ir_uBwXBktRRAKuUzZ-66" value="интерфейс БД" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="877" y="345" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I2ir_uBwXBktRRAKuUzZ-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="I2ir_uBwXBktRRAKuUzZ-73" target="I2ir_uBwXBktRRAKuUzZ-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I2ir_uBwXBktRRAKuUzZ-73" value="ввод" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-643" y="580" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I2ir_uBwXBktRRAKuUzZ-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="I2ir_uBwXBktRRAKuUzZ-74" target="I2ir_uBwXBktRRAKuUzZ-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I2ir_uBwXBktRRAKuUzZ-74" value="анализ /&lt;br&gt;вычисление" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-506.5" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I2ir_uBwXBktRRAKuUzZ-75" value="вывод" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="-313" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I2ir_uBwXBktRRAKuUzZ-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="I2ir_uBwXBktRRAKuUzZ-76" target="I2ir_uBwXBktRRAKuUzZ-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I2ir_uBwXBktRRAKuUzZ-76" value="ввод" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-643" y="785" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I2ir_uBwXBktRRAKuUzZ-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="I2ir_uBwXBktRRAKuUzZ-77" target="I2ir_uBwXBktRRAKuUzZ-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I2ir_uBwXBktRRAKuUzZ-77" value="анализ /&lt;br&gt;вычисление" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-506.5" y="795" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I2ir_uBwXBktRRAKuUzZ-78" value="вывод" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="-313" y="795" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I2ir_uBwXBktRRAKuUzZ-79" value="Данные с n-ым индивидом&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-823" y="610" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I2ir_uBwXBktRRAKuUzZ-80" value="&lt;span style=&quot;text-align: center; text-wrap: nowrap;&quot;&gt;Данные без n-го индивида&amp;nbsp;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-813" y="812.5" width="190" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="I2ir_uBwXBktRRAKuUzZ-81" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;Разница&quot; не более \(\epsilon\)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="710" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I2ir_uBwXBktRRAKuUzZ-85" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.195;entryY=-0.065;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="I2ir_uBwXBktRRAKuUzZ-75" target="I2ir_uBwXBktRRAKuUzZ-81">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-90" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I2ir_uBwXBktRRAKuUzZ-88" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.19;entryY=0.882;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="I2ir_uBwXBktRRAKuUzZ-78" target="I2ir_uBwXBktRRAKuUzZ-81">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
