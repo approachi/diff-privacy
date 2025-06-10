@@ -1,0 +1,16 @@
+age,education,sex,relationship,marital-status,income
+19,HS-grad,Female,Not-in-family,Never-married,<=50K
+35,HS-grad,Female,Unmarried,Never-married,<=50K
+36,Bachelors,Male,Husband,Married-civ-spouse,>50K
+40,Assoc-acdm,Male,Not-in-family,Divorced,>50K
+36,Masters,Male,Husband,Married-civ-spouse,>50K
+30,11th,Male,Husband,Married-civ-spouse,<=50K
+44,Bachelors,Male,Husband,Married-civ-spouse,<=50K
+37,Assoc-acdm,Male,Husband,Married-civ-spouse,>50K
+36,Prof-school,Male,Not-in-family,Never-married,<=50K
+50,10th,Male,Husband,Married-civ-spouse,<=50K
+40,HS-grad,Male,Own-child,Never-married,<=50K
+24,Some-college,Female,Own-child,Married-civ-spouse,<=50K
+40,HS-grad,Female,Not-in-family,Never-married,<=50K
+38,5th-6th,Male,Husband,Married-civ-spouse,<=50K
+60,9th,Female,Not-in-family,Widowed,<=50K

@@ -1,13 +1,61 @@
 \documentclass{bmstu}
 
 \usepackage[ruled,vlined]{algorithm2e}
+\usepackage{pdfpages}
+
+\bibliography{biblio.bib}
+
+% Отточие у глав
+\RequirePackage{tocloft}
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
+
+% Настройка стиля заголовка содержания
+
+% Стиль с выравниванием по центру
+\renewcommand{\cfttoctitlefont}{\hfill\large\bfseries}
+\renewcommand{\cftaftertoctitle}{\hfill\hfill}
+
+% Отступы до и после
+\setlength\cftbeforetoctitleskip{-22pt}
+\setlength\cftaftertoctitleskip{15pt}
+
+\lstset{
+	basicstyle=\footnotesize\ttfamily,
+	language=python,
+	commentstyle=, % Убираем цвет
+	numbers=left,
+	numberstyle=\tiny,
+	numbersep=5pt,
+	tabsize=4,
+	extendedchars=\true,
+	breaklines=true,
+	keywordstyle=, % Убираем цвет
+	frame=b,
+	stringstyle=\ttfamily, % Убираем цвет
+	showspaces=false,
+	showtabs=false,
+	xleftmargin=21pt,
+	framexleftmargin=17pt,
+	framexrightmargin=0pt,
+	framexbottommargin=4pt,
+	showstringspaces=false,
+	inputencoding=utf8x,
+	keepspaces=true
+}
 
 \begin{document}
+\includepdf{titul.pdf}
+ \include{tex/essay}
+\maketableofcontents
 \include{tex/shortage}
 \include{tex/intro}
-\setcounter{page}{5}
-\include{tex/analysis}
-\include{tex/construct}
+
+\setcounter{page}{7}
+\include{tex/analysis_2}
+\include{tex/construct_2}
 \include{tex/impl}
+\include{tex/research}
+\include{tex/conc}
 \makebibliography
+\include{tex/app}
 \end{document}
